@@ -6,7 +6,7 @@ import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import 'tachyons';
 
-import App from './containers/App';
+import AppContainer from './containers/App.container';
 import registerServiceWorker from './registerServiceWorker';
 import { requestRobots, searchRobots } from './reducers'
 
@@ -20,7 +20,7 @@ const store = createStore(rootReducers, applyMiddleware(thunkMiddleware, logger)
 
 ReactDOM.render(
   <Provider store={store}>
-    <App/>
+    <AppContainer/>
   </Provider>,
   document.getElementById('root')
 );
