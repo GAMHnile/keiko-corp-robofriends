@@ -22,11 +22,11 @@ ShallowWrapper {
         <img
           alt="robots"
           src="https://robohash.org/undefined?size=200x200"
-/>,
+        />,
         <div>
           <h2 />
           <p />
-</div>,
+        </div>,
       ],
       "className": "tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5",
     },
@@ -94,11 +94,11 @@ ShallowWrapper {
           <img
             alt="robots"
             src="https://robohash.org/undefined?size=200x200"
-/>,
+          />,
           <div>
             <h2 />
             <p />
-</div>,
+          </div>,
         ],
         "className": "tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5",
       },
@@ -169,7 +169,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
-          "getDerivedStateFromError": false,
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
