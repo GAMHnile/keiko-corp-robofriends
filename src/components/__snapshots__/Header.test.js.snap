@@ -21,9 +21,9 @@ ShallowWrapper {
       "children": Array [
         <h1
           className="f1"
->
+        >
           RoboFriends
-</h1>,
+        </h1>,
         <CounterButton />,
       ],
     },
@@ -62,9 +62,9 @@ ShallowWrapper {
         "children": Array [
           <h1
             className="f1"
->
+          >
             RoboFriends
-</h1>,
+          </h1>,
           <CounterButton />,
         ],
       },
@@ -107,7 +107,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
-          "getDerivedStateFromError": false,
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },

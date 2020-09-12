@@ -4,28 +4,40 @@ exports[`App redux connected component test App snapshot test 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <App
-    onRequestRobots={[Function]}
+    onRequestRobots={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
     robots={
-        Array [
-            Object {
-              "email": "john@SpeechGrammarList.com",
-              "id": 1,
-              "name": "John snow",
-            },
-            Object {
-              "email": "jane@SpeechGrammarList.com",
-              "id": 2,
-              "name": "jane snow",
-            },
-            Object {
-              "email": "chris@SpeechGrammarList.com",
-              "id": 3,
-              "name": "Chris snow",
-            },
-          ]
+      Array [
+        Object {
+          "email": "john@SpeechGrammarList.com",
+          "id": 1,
+          "name": "John snow",
+        },
+        Object {
+          "email": "jane@SpeechGrammarList.com",
+          "id": 2,
+          "name": "jane snow",
+        },
+        Object {
+          "email": "chris@SpeechGrammarList.com",
+          "id": 3,
+          "name": "Chris snow",
+        },
+      ]
     }
     searchField=""
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -42,34 +54,32 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Header />,
-        <SearchBox
-          searchChange={undefined}
-/>,
+        <SearchBox />,
         <Scroll>
           <ErrorBoundary>
-                    <CardList
-                              robots={
-                                        Array [
-                                                  Object {
-                                                    "email": "john@SpeechGrammarList.com",
-                                                    "id": 1,
-                                                    "name": "John snow",
-                                                  },
-                                                  Object {
-                                                    "email": "jane@SpeechGrammarList.com",
-                                                    "id": 2,
-                                                    "name": "jane snow",
-                                                  },
-                                                  Object {
-                                                    "email": "chris@SpeechGrammarList.com",
-                                                    "id": 3,
-                                                    "name": "Chris snow",
-                                                  },
-                                                ]
-                              }
-                    />
+            <CardList
+              robots={
+                Array [
+                  Object {
+                    "email": "john@SpeechGrammarList.com",
+                    "id": 1,
+                    "name": "John snow",
+                  },
+                  Object {
+                    "email": "jane@SpeechGrammarList.com",
+                    "id": 2,
+                    "name": "jane snow",
+                  },
+                  Object {
+                    "email": "chris@SpeechGrammarList.com",
+                    "id": 3,
+                    "name": "Chris snow",
+                  },
+                ]
+              }
+            />
           </ErrorBoundary>
-</Scroll>,
+        </Scroll>,
       ],
       "className": "tc",
     },
@@ -102,27 +112,27 @@ ShallowWrapper {
         "props": Object {
           "children": <ErrorBoundary>
             <CardList
-                        robots={
-                                    Array [
-                                                Object {
-                                                  "email": "john@SpeechGrammarList.com",
-                                                  "id": 1,
-                                                  "name": "John snow",
-                                                },
-                                                Object {
-                                                  "email": "jane@SpeechGrammarList.com",
-                                                  "id": 2,
-                                                  "name": "jane snow",
-                                                },
-                                                Object {
-                                                  "email": "chris@SpeechGrammarList.com",
-                                                  "id": 3,
-                                                  "name": "Chris snow",
-                                                },
-                                              ]
-                        }
+              robots={
+                Array [
+                  Object {
+                    "email": "john@SpeechGrammarList.com",
+                    "id": 1,
+                    "name": "John snow",
+                  },
+                  Object {
+                    "email": "jane@SpeechGrammarList.com",
+                    "id": 2,
+                    "name": "jane snow",
+                  },
+                  Object {
+                    "email": "chris@SpeechGrammarList.com",
+                    "id": 3,
+                    "name": "Chris snow",
+                  },
+                ]
+              }
             />
-</ErrorBoundary>,
+          </ErrorBoundary>,
         },
         "ref": null,
         "rendered": Object {
@@ -132,25 +142,25 @@ ShallowWrapper {
           "props": Object {
             "children": <CardList
               robots={
-                            Array [
-                                          Object {
-                                            "email": "john@SpeechGrammarList.com",
-                                            "id": 1,
-                                            "name": "John snow",
-                                          },
-                                          Object {
-                                            "email": "jane@SpeechGrammarList.com",
-                                            "id": 2,
-                                            "name": "jane snow",
-                                          },
-                                          Object {
-                                            "email": "chris@SpeechGrammarList.com",
-                                            "id": 3,
-                                            "name": "Chris snow",
-                                          },
-                                        ]
+                Array [
+                  Object {
+                    "email": "john@SpeechGrammarList.com",
+                    "id": 1,
+                    "name": "John snow",
+                  },
+                  Object {
+                    "email": "jane@SpeechGrammarList.com",
+                    "id": 2,
+                    "name": "jane snow",
+                  },
+                  Object {
+                    "email": "chris@SpeechGrammarList.com",
+                    "id": 3,
+                    "name": "Chris snow",
+                  },
+                ]
               }
-/>,
+            />,
           },
           "ref": null,
           "rendered": Object {
@@ -195,34 +205,32 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Header />,
-          <SearchBox
-            searchChange={undefined}
-/>,
+          <SearchBox />,
           <Scroll>
             <ErrorBoundary>
-                        <CardList
-                                    robots={
-                                                Array [
-                                                            Object {
-                                                              "email": "john@SpeechGrammarList.com",
-                                                              "id": 1,
-                                                              "name": "John snow",
-                                                            },
-                                                            Object {
-                                                              "email": "jane@SpeechGrammarList.com",
-                                                              "id": 2,
-                                                              "name": "jane snow",
-                                                            },
-                                                            Object {
-                                                              "email": "chris@SpeechGrammarList.com",
-                                                              "id": 3,
-                                                              "name": "Chris snow",
-                                                            },
-                                                          ]
-                                    }
-                        />
+              <CardList
+                robots={
+                  Array [
+                    Object {
+                      "email": "john@SpeechGrammarList.com",
+                      "id": 1,
+                      "name": "John snow",
+                    },
+                    Object {
+                      "email": "jane@SpeechGrammarList.com",
+                      "id": 2,
+                      "name": "jane snow",
+                    },
+                    Object {
+                      "email": "chris@SpeechGrammarList.com",
+                      "id": 3,
+                      "name": "Chris snow",
+                    },
+                  ]
+                }
+              />
             </ErrorBoundary>
-</Scroll>,
+          </Scroll>,
         ],
         "className": "tc",
       },
@@ -255,27 +263,27 @@ ShallowWrapper {
           "props": Object {
             "children": <ErrorBoundary>
               <CardList
-                            robots={
-                                          Array [
-                                                        Object {
-                                                          "email": "john@SpeechGrammarList.com",
-                                                          "id": 1,
-                                                          "name": "John snow",
-                                                        },
-                                                        Object {
-                                                          "email": "jane@SpeechGrammarList.com",
-                                                          "id": 2,
-                                                          "name": "jane snow",
-                                                        },
-                                                        Object {
-                                                          "email": "chris@SpeechGrammarList.com",
-                                                          "id": 3,
-                                                          "name": "Chris snow",
-                                                        },
-                                                      ]
-                            }
+                robots={
+                  Array [
+                    Object {
+                      "email": "john@SpeechGrammarList.com",
+                      "id": 1,
+                      "name": "John snow",
+                    },
+                    Object {
+                      "email": "jane@SpeechGrammarList.com",
+                      "id": 2,
+                      "name": "jane snow",
+                    },
+                    Object {
+                      "email": "chris@SpeechGrammarList.com",
+                      "id": 3,
+                      "name": "Chris snow",
+                    },
+                  ]
+                }
               />
-</ErrorBoundary>,
+            </ErrorBoundary>,
           },
           "ref": null,
           "rendered": Object {
@@ -285,25 +293,25 @@ ShallowWrapper {
             "props": Object {
               "children": <CardList
                 robots={
-                                Array [
-                                                Object {
-                                                  "email": "john@SpeechGrammarList.com",
-                                                  "id": 1,
-                                                  "name": "John snow",
-                                                },
-                                                Object {
-                                                  "email": "jane@SpeechGrammarList.com",
-                                                  "id": 2,
-                                                  "name": "jane snow",
-                                                },
-                                                Object {
-                                                  "email": "chris@SpeechGrammarList.com",
-                                                  "id": 3,
-                                                  "name": "Chris snow",
-                                                },
-                                              ]
+                  Array [
+                    Object {
+                      "email": "john@SpeechGrammarList.com",
+                      "id": 1,
+                      "name": "John snow",
+                    },
+                    Object {
+                      "email": "jane@SpeechGrammarList.com",
+                      "id": 2,
+                      "name": "jane snow",
+                    },
+                    Object {
+                      "email": "chris@SpeechGrammarList.com",
+                      "id": 3,
+                      "name": "Chris snow",
+                    },
+                  ]
                 }
-/>,
+              />,
             },
             "ref": null,
             "rendered": Object {
@@ -353,7 +361,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
-          "getDerivedStateFromError": false,
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
