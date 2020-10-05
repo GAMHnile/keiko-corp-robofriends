@@ -2,7 +2,7 @@ version: 2
 jobs: # we now have TWO jobs, so that a workflow can coordinate them!
   build: # This is our first job.
     docker: # it uses the docker executor
-      - image: circleci/node # specifically, a docker image with ruby 2.4.1
+      - image: circleci/node:12.0 # specifically, a docker image with ruby 2.4.1
     # Steps are a list of commands to run inside the docker container above.
     steps:
       - checkout # this pulls code down from GitHub
@@ -10,7 +10,7 @@ jobs: # we now have TWO jobs, so that a workflow can coordinate them!
       - run: npm install
   test: # This is our second job.
     docker: # it runs inside a docker image, the same as above.
-      - image: circleci/node
+      - image: circleci/node:12.0
     steps:
       - checkout
       - run: echo "A more familiar hi" # We run a similar echo command to above.
